@@ -1,4 +1,5 @@
 class jtrenholm::commonfiles {
+
 	file { 'vimrc':
 		path 	  => "/etc/vim/vimrc",
 		ensure 	=> "file",
@@ -8,4 +9,5 @@ class jtrenholm::commonfiles {
 		source	=> "puppet:///modules/jtrenholm/vimrc",
     require => Class [ jtrenholm::commonpackages ] 
 	}
+
 }
