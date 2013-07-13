@@ -1,0 +1,9 @@
+set nocompatible
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set syntax=on
+set hlsearch
+set term=ansi
+set showmode
